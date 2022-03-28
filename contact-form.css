@@ -1,0 +1,144 @@
+
+    nav {
+
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        background-color: #232b2b;
+        height: 150px; 
+    }
+    
+    .home {
+    
+        color: white; 
+        font-size: 25px;
+        grid-template-columns: 1/2;
+        margin-top: 100px;
+    }
+    
+    .portfolio {
+    
+        color: white; 
+        font-size: 25px;
+        grid-template-columns: 2/3;
+        margin-top: 100px;
+    
+    }
+    
+    .header-logo {
+        margin-top: 25px;
+        grid-template-columns: 3/4;
+        max-width: 100px;
+        max-height: 100px;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+    }
+    
+    .blog {
+        color: white; 
+        font-size: 25px;
+        grid-template-columns: 4/5;
+        margin-top: 100px;
+    }
+    
+    .contact {
+        color: white; 
+        font-size: 25px;
+        grid-template-columns: 5/6;
+        margin-top: 100px;
+    }
+
+    form {
+
+        background-color: #CAB197;
+    }
+
+.form-section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 100px;
+
+
+}
+
+.email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white; 
+    padding-bottom: 200px;
+}
+
+.comments {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white; 
+    padding-bottom: 200px;
+}
+
+textarea {
+    height: 100px; 
+    width: 200px; 
+}
+
+input {
+    color: white; 
+}
+.column-1 {
+    
+    grid-column: 1/2;
+    background-color: #3B444B;
+
+    
+
+}
+
+
+.column-2 {
+    
+    grid-column: 2/3;
+    background-color: #3B444B;
+   
+
+    
+}
+
+.column-3 {
+    
+    grid-column: 3/4;
+    background-color: #3B444B;
+
+}
+
+.form-columns {
+
+    display: grid; 
+    grid-template-columns: 20% 60% 20%;
+
+}
+
+.form-column-1 {
+    grid-column: 1/2; 
+    
+    background-color: #3B444B;
+}
+
+form {
+    grid-column: 2/3;
+    text-align: center;
+
+    border: 1px solid black;
+    height: 500px;
+    
+}
+
+.form-column-3 {
+    grid-column: 3/4;
+    
+    background-color: #3B444B;
+}
+
+.bottom-row {
+    background-color: #3B444B;
+    height: 50px;
+}
